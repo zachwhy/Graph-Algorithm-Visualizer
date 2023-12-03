@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "graph-algo-viz"
+version = "0.1.0"
+description = ""
+authors = ["zachwhy"]
+readme = "README.md"
+packages = [
+    { include = "graph_algo_viz", from = "src"}
+]
+
+[tool.pytest.ini_options]
+
+pythonpath = ["src/graph_algo_viz/"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.5.2"
+mypy = "^1.6.0"
+black = "^23.9.1"
+bandit = "^1.7.5"
+pytest = "^7.4.3"
+networkx = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

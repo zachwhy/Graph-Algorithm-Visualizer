@@ -1,0 +1,10 @@
+# Ignore cache files
+src/graph_algo_viz/__pycache__/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore mypy files
+.mypy_cache/
+
+/tests/__pycache__/*
