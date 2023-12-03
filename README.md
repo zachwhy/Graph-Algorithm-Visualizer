@@ -37,7 +37,7 @@ To install and run this project, you will need to have Conda and Poetry installe
 To use this project, you can run the `main.py` file with the following command-line arguments:
 
 ```bash
-main.py [-h] [-rows ROWS] [-width WIDTH] [-algo {dijkstra,a_star, bfs, dfs}]
+python main.py [-h] [-rows ROWS] [-width WIDTH] [-algo {dijkstra,a_star, bfs, dfs}]
 ```
 
 The following arguments are available:
